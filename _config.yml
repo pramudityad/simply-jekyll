@@ -20,7 +20,7 @@
 
 
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://simply-jekyll.netlify.app/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://pramudityad.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
 #######################################################################
 # Settings related to the Header and your About page go here,such as 
@@ -28,7 +28,7 @@ url: "https://simply-jekyll.netlify.app/" # the base hostname & protocol for you
 # your social media links etc
 #######################################################################
 
-heading: Simply Jekyll
+# heading: pramuditya's blog
 subheading: # subheading won't work without a tagline, 
           # tagline is mandatory if you want the 
           # suheading to appear. The reason is
@@ -47,29 +47,30 @@ tagline: # subheading won't work without a tagline,
   enabled: true
   name: An experiment to spark conversations
 copyright: 
-  year: 2020
-  msg: Raghuveer S # This is a mandatory attribute for copyright to be displayed
+  year: 2021
+  msg: pramuditya. Powered by Jekyll & simply-jekyll # This is a mandatory attribute for copyright to be displayed
 
 user:
   display: true # setting it to false will remove the header image and bio
                 # Note that user settings come wholesale, it does not have the 
                 # granular enabling or disabling as with the 'preferences'
                 # or the site-wide settings.
-  name: Raghuveer S
-  bio: Programmer ∪ Writer. Interested in constraints and correspondences.
-  email: raghu-veer@outlook.com
-  photo: /assets/img/profile.png
-  alt_link: rgvr.me
+  name: Damar Pramuditya
+  # bio: Programmer ∪ Writer. Interested in constraints and correspondences.
+  email: pramudityad@gmail.com
+  photo: /assets/img/ava1.jpeg
+  # alt_link: rgvr.me
   social: # just leave the field blank or type in null, if you don't have a
           # particular social media account and it won't appear
-    enabled: false  # turn this to true
-    twitter: rgvrme
-    github: rgvr 
-    youtube: rgvr 
-    linkedin: rgvr  
+    enabled: true  # turn this to true
+    twitter: dpramuditya
+    github: pramudityad 
+    youtube: null 
+    linkedin: damar-pramuditya-2b1834133  
     twitch: null
     facebook: null 
     instagram: null
+    medium: pramudityad
 
 
 
