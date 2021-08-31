@@ -28,7 +28,7 @@ url: "https://pramudityad.github.io/" # the base hostname & protocol for your si
 # your social media links etc
 #######################################################################
 
-# heading: pramuditya's blog
+heading: 
 subheading: # subheading won't work without a tagline, 
           # tagline is mandatory if you want the 
           # suheading to appear. The reason is
