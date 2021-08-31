@@ -48,7 +48,7 @@ tagline: # subheading won't work without a tagline,
   name: An experiment to spark conversations
 copyright: 
   year: 2021
-  msg: pramuditya. Powered by Jekyll & simply-jekyll # This is a mandatory attribute for copyright to be displayed
+  msg: pramudityad. Powered by Jekyll & simply-jekyll # This is a mandatory attribute for copyright to be displayed
 
 user:
   display: true # setting it to false will remove the header image and bio
@@ -155,6 +155,9 @@ defaults:
       permalink: /posts/:title
       content-type: post
 
+# Analytics
+google_analytics: UA-191468779-X
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -176,15 +179,3 @@ defaults:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-# Analytics
-analytics:
-  provider               : google-gtag # false (default), "google", "google-universal", "google-gtag", "custom"
-  google:
-    tracking_id          : UA-191468779-1
-    anonymize_ip         : false # true, false (default)
-
-# SEO Related
-google_site_verification : HL76SAqnJ7RjYEvzX1PHzds7pWr9p4IcHSc_Y3SZ028
-bing_site_verification   :
-yandex_site_verification :
-naver_site_verification  :
