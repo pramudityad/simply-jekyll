@@ -1440,7 +1440,7 @@ label.margin-toggle:not(.sidenote-number) {
 }
 }
 
-html, html[data-theme="light"] {
+/* html, html[data-theme="light"] {
     --light-text-color: hsl(0, 0%, 35%);
     --main-background-color: hsl(0, 5%, 95%);
     --main-text-color: hsl(0, 0%, 0%);
@@ -1456,6 +1456,6 @@ html, html[data-theme="light"] {
     html {
       content: "dark";
     }
-}
+} */
 
 

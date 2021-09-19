@@ -5,7 +5,7 @@ permalink: /about/
 content-type: eg
 ---
 
-- ! under construction 
+- :warning: under construction :warning:
 
 ## About the website
 

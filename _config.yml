@@ -34,7 +34,7 @@ subheading: # subheading won't work without a tagline,
           # suheading to appear. The reason is
           # having a heading and a subheading looks 
           # ridiculous.
-  enabled: true
+  enabled: false
   name: Notes and Thoughts
 tagline: # subheading won't work without a tagline, 
          # tagline is mandatory if you want the 
@@ -44,11 +44,11 @@ tagline: # subheading won't work without a tagline,
          # Although you can have the tagline without 
          # the subheading to support the main heading
          # which in this case is 'Knowledge Continuum'
-  enabled: true
+  enabled: false
   name: An experiment to spark conversations
 copyright: 
   year: 2021
-  msg: pramudityad. Powered by Jekyll & simply-jekyll # This is a mandatory attribute for copyright to be displayed
+  msg: Powered by simply-jekyll # This is a mandatory attribute for copyright to be displayed
 
 user:
   display: false # setting it to false will remove the header image and bio
@@ -56,10 +56,10 @@ user:
                 # granular enabling or disabling as with the 'preferences'
                 # or the site-wide settings.
   name: Damar Pramuditya
-  # bio: Programmer ∪ Writer. Interested in constraints and correspondences.
+  bio: null
   email: pramudityad@gmail.com
   photo: /assets/img/ava1.jpeg
-  # alt_link: rgvr.me
+  alt_link: null
   social: # just leave the field blank or type in null, if you don't have a
           # particular social media account and it won't appear
     enabled: true  # turn this to true
@@ -127,6 +127,7 @@ plugins:
   - jekyll-feed 
   - jekyll-sitemap 
   - jekyll-tidy
+  - jemoji
 
 # Disqus Comments
 disqus:
