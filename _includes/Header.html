@@ -30,7 +30,19 @@
 {%- endcomment -%}
 
 <header>
-    <script src="/assets/js/GetThemeTop.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+    <script>
+        window['ga-disable-{{ site.google_analytics }}'] = window.doNotTrack === "1" || navigator.doNotTrack === "1" ||
+            navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1";
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', '{{ site.google_analytics }}');
+    </script>
+    <!-- <script src="/assets/js/GetThemeTop.js"></script> -->
     <!-- <button id="theme-toggle" onclick="modeSwitcher()"></button> -->
     <div class="dashboard disable-select">
         {%- assign header_direction = 'site-heading-rtl' -%}
@@ -229,7 +241,7 @@
     </div>
     <script type="text/javascript" src="/assets/js/vendor/lunr.min.js"></script>
     <script src="/assets/js/Search.js"></script>
-    <script src="/assets/js/GetThemeBot.js"></script>
+    <!-- <script src="/assets/js/GetThemeBot.js"></script> -->
     {%- endif -%}
     {%- if page.permalink != "/" -%}
     <div class="main-site-subheader disable-select" id="scroll-head">

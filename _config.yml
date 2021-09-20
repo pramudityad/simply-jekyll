@@ -157,7 +157,7 @@ defaults:
       content-type: post
 
 # Analytics
-google_analytics: UA-191468779-X
+google_analytics: UA-191468779-1
 
 
 # Exclude from processing.
